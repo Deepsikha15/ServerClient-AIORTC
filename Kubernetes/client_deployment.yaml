@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: client
+  template:
+    metadata:
+      labels:
+        app: client
+    spec:
+      hostNetwork: true
+      containers:
+        - name: client
+          image: localhost:5000/client_docker:latest
+#          env:
+#            - name: SERVER_HOST
+#              value: server-service
+#            - name: SERVER_PORT
+#              value: "9000"
+          ports:
+            - containerPort: 9000
