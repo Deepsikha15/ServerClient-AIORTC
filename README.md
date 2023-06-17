@@ -1,4 +1,4 @@
-# Nimble Challenge
+# AIORTC Server-Client Application For Media (VideoFrame) Exchange
 
 This project creates a server and client program that exchange data. The server generate continuous frames of a ball bouncing on the screen and sends the data to client. The client displays the frames and computes the coordinates and sends it back to the server. The server displays the received coordinates and computes the error with the current location of the ball.
 
