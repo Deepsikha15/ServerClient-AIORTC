@@ -7,14 +7,11 @@ This project creates a server and client program that exchange data. The server 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
 
 ## Installation
 
+This project requires a Linux/MacOS Environment. Windows is not supported by the aiortc library,
 Run the following command to install project requirements.
 
 ```bash
