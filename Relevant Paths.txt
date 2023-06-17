@@ -1,0 +1,14 @@
+Relevant Paths:
+
+1. Application Demo: /NimbleChallenge/Application-Demo
+2. Built Docker Images: NimbleChallenge/Docker-Images
+3. Dockerfiles:
+	1. server Dockerfile inside /NimbleChallenge/Docker-Builds/server 
+	2. client Dockerfile inside /NimbleChallenge/Docker-Builds/client
+	
+	You can build the docker images from respective folders. README has detailed explanation
+4. Kubernetes manifest files: /NimbleChallenge/Kubernetes
+5. server.py: /NimbleChallenge
+6. client.py: /NimbleChallenge
+7. test_pytest.py: /NimbleChallenge
+8. requirements.txt: /NimbleChallenge
